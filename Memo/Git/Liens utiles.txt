@@ -12,3 +12,6 @@ http://www.cristal.univ-lille.fr/TPGIT/workflows/
 https://medium.com/@OVHUXLabs/la-puissance-des-workflows-git-12e195cafe44
 Bonnes pratiques:
 https://medium.com/captain-contrat-tech/code-review-best-practices-et-checklist-ba18c697ab21
+
+Erreur authentification Git:
+You may have to check windows credential manager and delete the github entry under control panel > user accounts > credential manager > Windows credentials > Generic credentials
