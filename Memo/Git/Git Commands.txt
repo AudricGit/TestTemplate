@@ -1,0 +1,33 @@
+/* Git clone */
+git clone "url_repository" "directory"
+/* Git branch*/
+git branch "name"
+/* Git checkout */
+Se place sur une branche
+Exemples :
+git checkout master
+git checkout bugFix
+git checkout XXX
+git checkout HEAD^ : remonte un parent
+git checkout HEAD~3 : remonte de 3 parents
+
+git fetch : récupère les données depuis un dépot distant (sans faire de merge)
+git pull : fetch + merge
+
+git pull --rebase : effectue un fetch, un rebase puis un pull (de manière à prendre en compte les évolutions du dépot distant)
+
+
+git branch -f master HEAD~3
+bouge de force la branche master à trois parents derrière HEAD
+
+git reset HEAD^ : dépot anulle le dernier commit
+git revert HEAD : dépot distant, annule le dernier commit en créant un nouveau commit en dessous
+git cherry-pick C2 C4 ajoute les commits C2 et C4 à la suite du dépot courant
+
+git checkout -b totallyNotMaster origin/master : crée une branche qui suit la brache origin/master
+
+git branch -u o/master : configure la brache courante pour suivre origin/master
+
+git push origin master : Va dans la branche "master" de mon dépôt, récupère tous les commits, 
+et ensuite va dans la branche distante "master" sur le dépôt nommé "origin". 
+Envoie tous les commits qui lui manquent sur cette branche distante puis préviens-moi quand c'est terminé.
