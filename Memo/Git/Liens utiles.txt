@@ -1,0 +1,14 @@
+Learn Git:
+https://learngitbranching.js.org
+Mémo Git:
+https://rogerdudler.github.io/git-guide/index.fr.html
+Workflow "GitHub Flow":
+https://medium.com/@OVHUXLabs/la-puissance-des-workflows-git-12e195cafe44
+https://www.nicoespeon.com/fr/2013/08/quel-git-workflow-pour-mon-projet/
+Comparaison git workflows:
+https://blog.programster.org/git-workflows
+https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf
+http://www.cristal.univ-lille.fr/TPGIT/workflows/
+https://medium.com/@OVHUXLabs/la-puissance-des-workflows-git-12e195cafe44
+Bonnes pratiques:
+https://medium.com/captain-contrat-tech/code-review-best-practices-et-checklist-ba18c697ab21
